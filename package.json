@@ -1,0 +1,42 @@
+{
+  "name": "mern-app-setup",
+  "version": "1.0.0",
+  "description": "Set up a full stack MERN application using Webpack , Babel and Nodemon",
+  "main": "index.js",
+  "scripts": {
+    "development": "nodemon",
+    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
+    "start": "NODE_ENV=production node ./dist/server.generated.js"
+  } ,
+  "keywords": [
+    "React",
+    "Node",
+    "Express",
+    "Webpack",
+    "Babel",
+    "Nodemon",
+    "MERN"
+  ],
+  "author": "Thomas Sentre",
+  "license": "ISC",
+  "dependencies": {
+    "@hot-loader/react-dom": "^17.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-middleware": "^5.3.0",
+    "webpack-hot-middleware": "^2.25.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
