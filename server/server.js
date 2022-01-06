@@ -1,5 +1,9 @@
-import express from 'express'
+import express from 'express';
+import devBundle from './devBundle.js'; // comment line  when you are working in production mode
+
 const app = express()
+
+devBundle.compile(app); // comment this line when you are working in production mode
 
 import path from 'path'
 
