@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://deuxpardeux.com/collections/all",
+    "collection_class": "feature_pro_repeated",
+    "product_description_class": "product__description",
+    "product_price_class": "price-item",
+    "product_title_class": "product__title"
+  },
+  {
+    "url": "https://kivari.com/collections/all",
+    "collection_class": "grid-product__wrapper",
+    "product_description_class": "product-single__description rte",
+    "product_description_filter": ["FINAL SALE"],
+    "product_price_class": "product-single__price",
+    "product_price_sale_class": "product-single__price on-sale",
+    "product_title_class": "product-single__title"
+  },
+  {
+    "url": "https://beddys.com/collections/all",
+    "collection_class": "grid-product__link",
+    "product_description_class": "collapsible-content__inner rte",
+    "product_description_filter": ["Digital", "Digital download", "PDF"],
+    "product_title_filter": "sample",
+    "product_price_class": "product__price",
+    "product_price_sale_class": "product__price on-sale",
+    "product_title_class": "product-single__title"
+  },
+  {
+    "url": "https://oyeswimwear.com/collections/all",
+    "collection_class": "ProductItem__ImageWrapper",
+    "product_description_class": "TableWrapper",
+    "product_price_class": "ProductMeta__Price",
+    "product_price_sale_class": "ProductMeta__Price Price Price--highlight Text--subdued u-h4",
+    "product_title_class": "ProductMeta__Title"
+  },
+  {
+    "url": "https://rschrono.com/collections/all",
+    "collection_class": "ProductItem__ImageWrapper",
+    "product_description_class": "ProductMeta__Description",
+    "product_description_filter": [
+      "br",
+      "iframe",
+      "span",
+      "strong",
+      "size guide"
+    ],
+    "product_price_class": "ProductMeta__Price",
+    "product_price_sale_class": "ProductMeta__Price Price Price--highlight Text--subdued u-h4",
+    "product_title_class": "ProductMeta__Title Heading u-h2"
+  },
+  {
+    "url": "https://nomadix.com/collections/all",
+    "collection_class": "ProductItem__ImageWrapper",
+    "product_description_class": ".product__description .rte",
+    "product_price_class": ".product__price",
+    "product_price_sale_class": ".product__price .text-orange",
+    "product_title_class": ".product__title",
+    "product_title_same": [
+      "Changing Poncho:",
+      "Bandana Towel:",
+      "Mini Towel:",
+      "Festival Towel:",
+      "Original Towel",
+      "Poncho Towel"
+    ]
+  },
+  {
+    "url": "https://thelinebyk.com/collections/all",
+    "collection_class": "boost-pfs-filter-product-item-image-link",
+    "product_description_id": "smart-tabs-content-1",
+    "product_price_class": ".current-price.theme-money",
+    "product_price_sale_class": ".product__price .text-orange",
+    "product_title_class": ".product-area__details__title product-detail__gap-sm h2"
+  }
+]
